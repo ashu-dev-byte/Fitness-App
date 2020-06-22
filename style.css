@@ -52,9 +52,38 @@ body {
 
 .inner-circle {
   position: absolute;
-  background-color: #091929;
+  background-color: #0a1c30;
   border-radius: 50%;
   z-index: -1;
   height: 100%;
   width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.marker-container {
+  position: absolute;
+  width: 22.5px;
+  height: 200px;
+  top: -45px;
+  left: 140px;
+  animation: rotate 7.5s linear forwards infinite;
+  transform-origin: bottom center;
+}
+
+.marker {
+  background-color: white;
+  border-radius: 50%;
+  display: block;
+  height: 22.5px;
+  width: 22.5px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

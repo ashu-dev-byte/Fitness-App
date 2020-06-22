@@ -24,8 +24,8 @@ function breatheAnimation() {
       text.style.color = "red";
       // marker.style.backgroundColor = "red";
       conatiner.className = "container shrink";
-    }, holdTime + 250);
-  }, breatheTime + 250);
+    }, holdTime);
+  }, breatheTime);
 }
 
-setInterval(breatheAnimation, totalTime + 500);
+setInterval(breatheAnimation, totalTime);

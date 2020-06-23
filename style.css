@@ -174,7 +174,7 @@ CSS of Second Page
 
 .child-two {
   background-color: rgb(24, 23, 23);
-  color: white;
+  color: whitesmoke;
   overflow: hidden;
 }
 
@@ -312,7 +312,7 @@ CSS of Second Page
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 685px) {
   .container-child-two > div {
     height: 206.5px;
   }

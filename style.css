@@ -129,16 +129,69 @@ CSS of Second Page
 ================================================================ */
 
 .child-two {
-  min-height: 100vh;
   background-color: rgb(2, 31, 14);
   color: white;
-  /* background: linear-gradient(rgb(18, 124, 98, 0.4), rgb(18, 124, 98, 0.4)),
-    url("./images/close-up-photography-of-leaves-with-droplets-807598.jpg");
-  background-size: cover; */
   overflow: hidden;
 }
 
 .container-child-two {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.container-child-two h2 {
+  font-size: 45px;
+  font-weight: 300;
+  margin: 10px;
+}
+
+.container-child-two h2 span {
+  font-size: 30px;
+}
+
+.container-child-two p {
+  font-size: 20px;
+}
+
+.container-child-two > div {
+  height: 228px;
+  background-size: cover;
+  background-attachment: fixed;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.5s ease-in;
+}
+
+.container-child-two > div:hover {
+  opacity: 0.7;
+  transform: scale(0.98);
+}
+
+.container-child-two > div:nth-of-type(1) {
+  grid-column: 1/3;
+}
+
+.container-child-two > div:nth-of-type(6) {
+  grid-column: 3/5;
+}
+
+.container-child-two > div:nth-of-type(9) {
+  grid-column: 3/5;
+}
+
+.container-child-two > div:nth-of-type(10) {
+  grid-column: 1/3;
+}
+
+.bg1 {
+  background: url("https://i.ibb.co/dBLbrRV/bg1.jpg");
+}
+
+.bg2 {
+  background: url("./images/conifer-dawn-daylight-evergreen-167698.jpg");
 }

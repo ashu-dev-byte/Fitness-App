@@ -199,7 +199,7 @@ CSS of Second Page
 }
 
 .container-child-two > div {
-  height: 228px;
+  height: 181px;
   background-size: cover;
   background-attachment: fixed;
   cursor: pointer;

@@ -1,4 +1,4 @@
-const conatiner = document.querySelector(".container");
+const conatiner = document.querySelector(".container-child-one");
 const marker = document.querySelector(".marker");
 const text = document.querySelector("#text");
 
@@ -12,7 +12,7 @@ function breatheAnimation() {
   text.innerHTML = "Breathe In!";
   text.style.color = "green";
   // marker.style.backgroundColor = "green";
-  conatiner.className = "container grow";
+  conatiner.className = "container-child-one grow";
 
   setTimeout(() => {
     text.innerHTML = "Hold!";
@@ -23,7 +23,7 @@ function breatheAnimation() {
       text.innerHTML = "Breathe Out!";
       text.style.color = "red";
       // marker.style.backgroundColor = "red";
-      conatiner.className = "container shrink";
+      conatiner.className = "container-child-one shrink";
     }, holdTime);
   }, breatheTime);
 }

@@ -32,3 +32,11 @@ function breatheAnimation() {
 }
 
 setInterval(breatheAnimation, totalTime);
+
+// $(document).ready(() => {
+//   $(() => {
+//     $.scrollify({
+//       section: ".main-page",
+//     });
+//   });
+// });

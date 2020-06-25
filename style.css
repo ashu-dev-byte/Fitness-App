@@ -320,7 +320,7 @@ CSS of Second Page
 
 @media screen and (max-width: 685px) {
   .child-two {
-    height: 415vh;
+    height: 411vh;
   }
   .container-child-two > div {
     height: 206.5px;

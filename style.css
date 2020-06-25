@@ -12,7 +12,7 @@ html {
 }
 
 .child-one {
-  min-height: 100vh;
+  height: 100vh;
   background: linear-gradient(rgb(18, 124, 98, 0.4), rgb(18, 124, 98, 0.4)),
     url("./images/blue-blur-color-dark-932638.jpg");
   background-size: cover;
@@ -177,6 +177,7 @@ CSS of Second Page
 ================================================================ */
 
 .child-two {
+  height: 100vh;
   background-color: rgb(24, 23, 23);
   color: whitesmoke;
   overflow: hidden;
@@ -204,7 +205,7 @@ CSS of Second Page
 }
 
 .container-child-two > div {
-  height: 228px;
+  height: 24vh;
   background-size: cover;
   background-attachment: fixed;
   cursor: pointer;
@@ -318,6 +319,9 @@ CSS of Second Page
 }
 
 @media screen and (max-width: 685px) {
+  .child-two {
+    height: 404vh;
+  }
   .container-child-two > div {
     height: 206.5px;
   }
